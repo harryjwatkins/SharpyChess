@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "vwo/QuozzruNjyORO6Ut6Ppwj2TmssAy9IwAIsKPguFpPIZ7mqqoj2WWwtJR3S7Lr9As3EfIFwl25mQJc5/puA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\harry\\development\\SharpyChess\\UI\\UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harry\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\harry\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\harry\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\harry\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
