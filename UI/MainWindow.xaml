@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:UI"
         mc:Ignorable="d"
         Title="SharpyChess" Height="800" Width="800">
-    <Grid ShowGridLines="True">
+    <Grid ShowGridLines="False">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
@@ -27,5 +27,85 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
+
+        <!--Row 0-->
+        <Label Grid.Row="0" Grid.Column="0" Background="#E3C16F"></Label>
+        <Label Grid.Row="0" Grid.Column="1" Background="#B88B4A"></Label>
+        <Label Grid.Row="0" Grid.Column="2" Background="#E3C16F"></Label>
+        <Label Grid.Row="0" Grid.Column="3" Background="#B88B4A"></Label>
+        <Label Grid.Row="0" Grid.Column="4" Background="#E3C16F"></Label>
+        <Label Grid.Row="0" Grid.Column="5" Background="#B88B4A"></Label>
+        <Label Grid.Row="0" Grid.Column="6" Background="#E3C16F"></Label>
+        <Label Grid.Row="0" Grid.Column="7" Background="#B88B4A"></Label>
+
+        <!--Row 1-->
+        <Label Grid.Row="1" Grid.Column="0" Background="#B88B4A"></Label>
+        <Label Grid.Row="1" Grid.Column="1" Background="#E3C16F"></Label>
+        <Label Grid.Row="1" Grid.Column="2" Background="#B88B4A"></Label>
+        <Label Grid.Row="1" Grid.Column="3" Background="#E3C16F"></Label>
+        <Label Grid.Row="1" Grid.Column="4" Background="#B88B4A"></Label>
+        <Label Grid.Row="1" Grid.Column="5" Background="#E3C16F"></Label>
+        <Label Grid.Row="1" Grid.Column="6" Background="#B88B4A"></Label>
+        <Label Grid.Row="1" Grid.Column="7" Background="#E3C16F"></Label>
+
+        <!--Row 2-->
+        <Label Grid.Row="2" Grid.Column="0" Background="#E3C16F"></Label>
+        <Label Grid.Row="2" Grid.Column="1" Background="#B88B4A"></Label>
+        <Label Grid.Row="2" Grid.Column="2" Background="#E3C16F"></Label>
+        <Label Grid.Row="2" Grid.Column="3" Background="#B88B4A"></Label>
+        <Label Grid.Row="2" Grid.Column="4" Background="#E3C16F"></Label>
+        <Label Grid.Row="2" Grid.Column="5" Background="#B88B4A"></Label>
+        <Label Grid.Row="2" Grid.Column="6" Background="#E3C16F"></Label>
+        <Label Grid.Row="2" Grid.Column="7" Background="#B88B4A"></Label>
+
+        <!--Row 3-->
+        <Label Grid.Row="3" Grid.Column="0" Background="#B88B4A"></Label>
+        <Label Grid.Row="3" Grid.Column="1" Background="#E3C16F"></Label>
+        <Label Grid.Row="3" Grid.Column="2" Background="#B88B4A"></Label>
+        <Label Grid.Row="3" Grid.Column="3" Background="#E3C16F"></Label>
+        <Label Grid.Row="3" Grid.Column="4" Background="#B88B4A"></Label>
+        <Label Grid.Row="3" Grid.Column="5" Background="#E3C16F"></Label>
+        <Label Grid.Row="3" Grid.Column="6" Background="#B88B4A"></Label>
+        <Label Grid.Row="3" Grid.Column="7" Background="#E3C16F"></Label>
+
+        <!--Row 4-->
+        <Label Grid.Row="4" Grid.Column="0" Background="#E3C16F"></Label>
+        <Label Grid.Row="4" Grid.Column="1" Background="#B88B4A"></Label>
+        <Label Grid.Row="4" Grid.Column="2" Background="#E3C16F"></Label>
+        <Label Grid.Row="4" Grid.Column="3" Background="#B88B4A"></Label>
+        <Label Grid.Row="4" Grid.Column="4" Background="#E3C16F"></Label>
+        <Label Grid.Row="4" Grid.Column="5" Background="#B88B4A"></Label>
+        <Label Grid.Row="4" Grid.Column="6" Background="#E3C16F"></Label>
+        <Label Grid.Row="4" Grid.Column="7" Background="#B88B4A"></Label>
+
+        <!--Row 5-->
+        <Label Grid.Row="5" Grid.Column="0" Background="#B88B4A"></Label>
+        <Label Grid.Row="5" Grid.Column="1" Background="#E3C16F"></Label>
+        <Label Grid.Row="5" Grid.Column="2" Background="#B88B4A"></Label>
+        <Label Grid.Row="5" Grid.Column="3" Background="#E3C16F"></Label>
+        <Label Grid.Row="5" Grid.Column="4" Background="#B88B4A"></Label>
+        <Label Grid.Row="5" Grid.Column="5" Background="#E3C16F"></Label>
+        <Label Grid.Row="5" Grid.Column="6" Background="#B88B4A"></Label>
+        <Label Grid.Row="5" Grid.Column="7" Background="#E3C16F"></Label>
+
+        <!--Row 6-->
+        <Label Grid.Row="6" Grid.Column="0" Background="#E3C16F"></Label>
+        <Label Grid.Row="6" Grid.Column="1" Background="#B88B4A"></Label>
+        <Label Grid.Row="6" Grid.Column="2" Background="#E3C16F"></Label>
+        <Label Grid.Row="6" Grid.Column="3" Background="#B88B4A"></Label>
+        <Label Grid.Row="6" Grid.Column="4" Background="#E3C16F"></Label>
+        <Label Grid.Row="6" Grid.Column="5" Background="#B88B4A"></Label>
+        <Label Grid.Row="6" Grid.Column="6" Background="#E3C16F"></Label>
+        <Label Grid.Row="6" Grid.Column="7" Background="#B88B4A"></Label>
+
+        <!--Row 7-->
+        <Label Grid.Row="7" Grid.Column="0" Background="#B88B4A"></Label>
+        <Label Grid.Row="7" Grid.Column="1" Background="#E3C16F"></Label>
+        <Label Grid.Row="7" Grid.Column="2" Background="#B88B4A"></Label>
+        <Label Grid.Row="7" Grid.Column="3" Background="#E3C16F"></Label>
+        <Label Grid.Row="7" Grid.Column="4" Background="#B88B4A"></Label>
+        <Label Grid.Row="7" Grid.Column="5" Background="#E3C16F"></Label>
+        <Label Grid.Row="7" Grid.Column="6" Background="#B88B4A"></Label>
+        <Label Grid.Row="7" Grid.Column="7" Background="#E3C16F"></Label>
     </Grid>
 </Window>
