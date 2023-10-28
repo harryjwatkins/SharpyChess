@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{0A867A5F-E296-4881-85D2-B9B85DD0FC32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Logic\Logic.csproj", "{0A867A5F-E296-4881-85D2-B9B85DD0FC32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{6D9C184D-667E-49BB-B180-D2BF861D071D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "UI\UI.csproj", "{6D9C184D-667E-49BB-B180-D2BF861D071D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BE33B7F-AF10-442D-BEBC-BBBDFC679EBB}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpyChess", "SharpyChess\SharpyChess.csproj", "{194F5CA2-F533-4772-BA30-1139D24F6EDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{6D9C184D-667E-49BB-B180-D2BF861D071D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D9C184D-667E-49BB-B180-D2BF861D071D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D9C184D-667E-49BB-B180-D2BF861D071D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194F5CA2-F533-4772-BA30-1139D24F6EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194F5CA2-F533-4772-BA30-1139D24F6EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194F5CA2-F533-4772-BA30-1139D24F6EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194F5CA2-F533-4772-BA30-1139D24F6EDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
