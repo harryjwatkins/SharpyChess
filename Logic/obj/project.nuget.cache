@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vORRhyVdWN/kmGQVZuCKPxJNjxNjugysydR0MjB2XTpZz/MmO05zJwArWgnWDzVuGRyywQyeL1VwDNtLn7O9EQ==",
+  "dgSpecHash": "uGKtgjIAjhVEuhbyjDFTLQoDJMpY/nKfqxUDTL2UKawTXf32t0qukkFW7tQkc2Fm3nlX7uL6kKgSCfaitflv7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\harry\\development\\SharpyChess\\Logic\\Logic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\harry\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\harry\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\harry\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+  ],
   "logs": []
 }

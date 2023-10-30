@@ -1,6 +1,6 @@
 ﻿namespace Logic.Enums
 {
-    public enum PieceSet
+    public enum Colour
     {
         Black,
         White
