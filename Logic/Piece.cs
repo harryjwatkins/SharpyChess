@@ -16,7 +16,7 @@ namespace Logic
             CurrentPosition = currentPosition;
         }
 
-        public int[] GetCurrentPosition()
+        public int[]? GetCurrentPosition()
         {
             if (CurrentPosition == null)
             {

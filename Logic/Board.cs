@@ -65,13 +65,18 @@ namespace Logic
 
         public void MovePiece(Piece piece, int[] newPosition)
         {
-            board[piece.CurrentPosition[0], piece.CurrentPosition[1]] = null;
+            if (piece.CurrentPosition == null) return;
+            board[piece.CurrentPosition[0], piece.CurrentPosition[1]].Piece = null;
             board[newPosition[0], newPosition[1]].Piece = piece;
             piece.CurrentPosition = newPosition;
         }
 
-        public Piece GetBoardSquarePiece(int row, int column)
+        public Piece? GetBoardSquarePiece(int row, int column)
         {
+            if (board[row, column] == null) 
+            {
+                return null;
+            }
             return board[row, column].Piece;
         }
     }
