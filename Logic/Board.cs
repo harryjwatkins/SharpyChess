@@ -66,9 +66,15 @@ namespace Logic
         public void MovePiece(Piece piece, int[] newPosition)
         {
             if (piece.CurrentPosition == null) return;
+
             board[piece.CurrentPosition[0], piece.CurrentPosition[1]].Piece = null;
             board[newPosition[0], newPosition[1]].Piece = piece;
             piece.CurrentPosition = newPosition;
+
+            if (piece.PieceType.Equals(PieceType.Pawn) && !piece.HadFirstMove)
+            {
+                piece.HadFirstMove = true;
+            }
         }
 
         public Piece? GetBoardSquarePiece(int row, int column)

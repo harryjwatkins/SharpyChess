@@ -39,14 +39,46 @@
         <Label Grid.Row="0" Grid.Column="7" Background="#B88B4A"></Label>
 
         <!--Row 1-->
-        <Label Grid.Row="1" Grid.Column="0" Background="#B88B4A"></Label>
-        <Label Grid.Row="1" Grid.Column="1" Background="#E3C16F"></Label>
-        <Label Grid.Row="1" Grid.Column="2" Background="#B88B4A"></Label>
-        <Label Grid.Row="1" Grid.Column="3" Background="#E3C16F"></Label>
-        <Label Grid.Row="1" Grid.Column="4" Background="#B88B4A"></Label>
-        <Label Grid.Row="1" Grid.Column="5" Background="#E3C16F"></Label>
-        <Label Grid.Row="1" Grid.Column="6" Background="#B88B4A"></Label>
-        <Label Grid.Row="1" Grid.Column="7" Background="#E3C16F"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Background="#B88B4A">
+            <Canvas>
+                <Path Style="{StaticResource BlackPawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="1" Grid.Column="1" Background="#E3C16F">
+            <Canvas>
+                <Path Style="{StaticResource BlackPawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="1" Grid.Column="2" Background="#B88B4A">
+            <Canvas>
+                <Path Style="{StaticResource BlackPawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="1" Grid.Column="3" Background="#E3C16F">
+            <Canvas>
+                <Path Style="{StaticResource BlackPawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="1" Grid.Column="4" Background="#B88B4A">
+            <Canvas>
+                <Path Style="{StaticResource BlackPawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="1" Grid.Column="5" Background="#E3C16F">
+            <Canvas>
+                <Path Style="{StaticResource BlackPawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="1" Grid.Column="6" Background="#B88B4A">
+            <Canvas>
+                <Path Style="{StaticResource BlackPawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="1" Grid.Column="7" Background="#E3C16F">
+            <Canvas>
+                <Path Style="{StaticResource BlackPawn}"/>
+            </Canvas>
+        </Label>
 
         <!--Row 2-->
         <Label Grid.Row="2" Grid.Column="0" Background="#E3C16F"></Label>
@@ -89,14 +121,46 @@
         <Label Grid.Row="5" Grid.Column="7" Background="#E3C16F"></Label>
 
         <!--Row 6-->
-        <Label Grid.Row="6" Grid.Column="0" Background="#E3C16F"></Label>
-        <Label Grid.Row="6" Grid.Column="1" Background="#B88B4A"></Label>
-        <Label Grid.Row="6" Grid.Column="2" Background="#E3C16F"></Label>
-        <Label Grid.Row="6" Grid.Column="3" Background="#B88B4A"></Label>
-        <Label Grid.Row="6" Grid.Column="4" Background="#E3C16F"></Label>
-        <Label Grid.Row="6" Grid.Column="5" Background="#B88B4A"></Label>
-        <Label Grid.Row="6" Grid.Column="6" Background="#E3C16F"></Label>
-        <Label Grid.Row="6" Grid.Column="7" Background="#B88B4A"></Label>
+        <Label Grid.Row="6" Grid.Column="0" Background="#E3C16F">
+            <Canvas>
+                <Path Style="{StaticResource WhitePawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="6" Grid.Column="1" Background="#B88B4A">
+            <Canvas>
+                <Path Style="{StaticResource WhitePawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="6" Grid.Column="2" Background="#E3C16F">
+            <Canvas>
+                <Path Style="{StaticResource WhitePawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="6" Grid.Column="3" Background="#B88B4A">
+            <Canvas>
+                <Path Style="{StaticResource WhitePawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="6" Grid.Column="4" Background="#E3C16F">
+            <Canvas>
+                <Path Style="{StaticResource WhitePawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="6" Grid.Column="5" Background="#B88B4A">
+            <Canvas>
+                <Path Style="{StaticResource WhitePawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="6" Grid.Column="6" Background="#E3C16F">
+            <Canvas>
+                <Path Style="{StaticResource WhitePawn}"/>
+            </Canvas>
+        </Label>
+        <Label Grid.Row="6" Grid.Column="7" Background="#B88B4A">
+                        <Canvas>
+                <Path Style="{StaticResource WhitePawn}"/>
+            </Canvas>
+        </Label>
 
         <!--Row 7-->
         <Label Grid.Row="7" Grid.Column="0" Background="#B88B4A"></Label>
