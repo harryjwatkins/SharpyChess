@@ -1,32 +1,12 @@
 ﻿<Application x:Class="UI.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:piece="clr-namespace:UI.Pieces"
              xmlns:local="clr-namespace:UI"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style x:Key="ChessPieces" TargetType="Path">
-            <Setter Property="Fill" Value="White"/>
-            <Setter Property="Stretch" Value="Uniform"/>
-        </Style>
-
-        <Style x:Key="WhitePawn" TargetType="Path" BasedOn="{StaticResource ChessPieces}">
-            <Setter Property="Width" Value="70"/>
-            <Setter Property="Height" Value="70"/>
-            <Setter Property="Canvas.Left" Value="8"/>
-            <Setter Property="Canvas.Top" Value="8"/>
-            <!--By Cburnett - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1499810-->
-            <Setter Property="Data" Value="m 22.5 9 c -2.21 0 -4 1.79 -4 4 0 0.89 0.29 1.71 0.78 2.38 C 17.33 16.5 16 18.59 16 21 c 0 2.03 0.94 3.84 2.41 5.03 C 15.41 27.09 11 31.58 11 39.5 H 34 C 34 31.58 29.59 27.09 26.59 26.03 28.06 24.84 29 23.03 29 21 29 18.59 27.67 16.5 25.72 15.38 26.21 14.71 26.5 13.89 26.5 13 c 0 -2.21 -1.79 -4 -4 -4 z" />
-        </Style>
-
-        <Style x:Key="BlackPawn" TargetType="Path" BasedOn="{StaticResource ChessPieces}">
-            <Setter Property="Fill" Value="Black"/>
-            <Setter Property="Width" Value="70"/>
-            <Setter Property="Height" Value="70"/>
-            <Setter Property="Canvas.Left" Value="8"/>
-            <Setter Property="Canvas.Top" Value="8"/>
-            <!--By Cburnett - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1499809-->
-            <Setter Property="Data" Value="m 22.5 9 c -2.21 0 -4 1.79 -4 4 0 0.89 0.29 1.71 0.78 2.38 C 17.33 16.5 16 18.59 16 21 c 0 2.03 0.94 3.84 2.41 5.03 C 15.41 27.09 11 31.58 11 39.5 H 34 C 34 31.58 29.59 27.09 26.59 26.03 28.06 24.84 29 23.03 29 21 29 18.59 27.67 16.5 25.72 15.38 26.21 14.71 26.5 13.89 26.5 13 c 0 -2.21 -1.79 -4 -4 -4 z" />
-        </Style>
-
+        <DataTemplate x:Key="WhitePawn">
+            <piece:WhitePawn/>
+        </DataTemplate>
     </Application.Resources>
 </Application>
