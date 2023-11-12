@@ -11,6 +11,9 @@
     <Compile Update="Pieces\BlackPawn.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pieces\BlackRook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

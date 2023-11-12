@@ -11,5 +11,11 @@
         <DataTemplate x:Key="BlackPawn">
             <piece:BlackPawn />
         </DataTemplate>
+        <DataTemplate x:Key="WhiteRook">
+            <piece:WhiteRook />
+        </DataTemplate>
+        <DataTemplate x:Key="BlackRook">
+            <piece:BlackRook />
+        </DataTemplate>
     </Application.Resources>
 </Application>
