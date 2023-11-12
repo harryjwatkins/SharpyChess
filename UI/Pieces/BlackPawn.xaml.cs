@@ -3,11 +3,11 @@
 namespace UI.Pieces
 {
     /// <summary>
-    /// Interaction logic for WhitePawn.xaml
+    /// Interaction logic for BlackPawn.xaml
     /// </summary>
-    public partial class WhitePawn : UserControl
+    public partial class BlackPawn : UserControl
     {
-        public WhitePawn()
+        public BlackPawn()
         {
             InitializeComponent();
         }

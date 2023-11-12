@@ -6,7 +6,10 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <DataTemplate x:Key="WhitePawn">
-            <piece:WhitePawn/>
+            <piece:WhitePawn />
+        </DataTemplate>
+        <DataTemplate x:Key="BlackPawn">
+            <piece:BlackPawn />
         </DataTemplate>
     </Application.Resources>
 </Application>
