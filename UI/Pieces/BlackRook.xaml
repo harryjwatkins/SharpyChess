@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:UI.Pieces"
              mc:Ignorable="d" 
              d:DesignHeight="45" d:DesignWidth="45">
-    <!-- By Cburnett - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1499814 -->
+    <!-- By Cburnett - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1499813 -->
     <Viewbox>
         <Canvas Name="svg4" Width="45" Height="45" >
             <Path Name="path1" Fill="Black" Stroke="Black" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeMiterLimit="4" StrokeThickness="1.5" StrokeLineJoin="Round">
