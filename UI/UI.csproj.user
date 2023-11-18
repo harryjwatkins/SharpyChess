@@ -24,6 +24,12 @@
     <Page Update="Pieces\BlackBishop.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Pieces\BlackKnight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pieces\WhiteKnight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Pieces\WhitePawn.xaml">
       <SubType>Designer</SubType>
     </Page>

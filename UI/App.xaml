@@ -19,6 +19,13 @@
             <piece:BlackRook />
         </DataTemplate>
 
+        <DataTemplate x:Key="WhiteKnight">
+            <piece:WhiteKnight />
+        </DataTemplate>
+        <DataTemplate x:Key="BlackKnight">
+            <piece:BlackKnight />
+        </DataTemplate>
+
         <DataTemplate x:Key="WhiteBishop">
             <piece:WhiteBishop />
         </DataTemplate>
