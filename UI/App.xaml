@@ -39,5 +39,12 @@
         <DataTemplate x:Key="BlackQueen">
             <piece:BlackQueen />
         </DataTemplate>
+
+        <DataTemplate x:Key="WhiteKing">
+            <piece:WhiteKing />
+        </DataTemplate>
+        <DataTemplate x:Key="BlackKing">
+            <piece:BlackKing />
+        </DataTemplate>
     </Application.Resources>
 </Application>

@@ -23,6 +23,12 @@
     <Compile Update="Pieces\BlackQueen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pieces\BlackKing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pieces\WhiteKing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pieces\WhiteQueen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
