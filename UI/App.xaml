@@ -32,5 +32,12 @@
         <DataTemplate x:Key="BlackBishop">
             <piece:BlackBishop />
         </DataTemplate>
+
+        <DataTemplate x:Key="WhiteQueen">
+            <piece:WhiteQueen />
+        </DataTemplate>
+        <DataTemplate x:Key="BlackQueen">
+            <piece:BlackQueen />
+        </DataTemplate>
     </Application.Resources>
 </Application>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\harry\development\SharpyChess\UI\App.xaml
-9-772459696
+111307559968
 
-13-1286159571
+15925562341
 194-1887613689
-MainWindow.xaml;Pieces\BlackBishop.xaml;Pieces\BlackKnight.xaml;Pieces\BlackPawn.xaml;Pieces\BlackRook.xaml;Pieces\WhiteBishop.xaml;Pieces\WhiteKnight.xaml;Pieces\WhitePawn.xaml;Pieces\WhiteRook.xaml;
+MainWindow.xaml;Pieces\BlackBishop.xaml;Pieces\BlackKnight.xaml;Pieces\BlackPawn.xaml;Pieces\BlackQueen.xaml;Pieces\BlackRook.xaml;Pieces\WhiteBishop.xaml;Pieces\WhiteKnight.xaml;Pieces\WhitePawn.xaml;Pieces\WhiteQueen.xaml;Pieces\WhiteRook.xaml;
 
 True
 
