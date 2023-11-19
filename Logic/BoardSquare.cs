@@ -1,4 +1,5 @@
 ﻿using Logic.Enums;
+using Logic.Pieces;
 
 namespace Logic
 {
@@ -7,7 +8,7 @@ namespace Logic
         public int Row { get; set; }
         public int Col { get; set; }
         public Colour Colour { get; set; }
-        public Piece? Piece { get; set; }
+        public IPiece? Piece { get; set; }
 
         public BoardSquare(int row, int col, Colour colour) 
         {

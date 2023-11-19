@@ -1,4 +1,5 @@
 ﻿using Logic.Enums;
+using Logic.Pieces;
 
 namespace Logic
 {
@@ -32,52 +33,43 @@ namespace Logic
             {
                 int[] blackPawnSquare = new int[] { 1, column };
                 int[] whitePawnSquare = new int[] { 6, column };
-                board[1, column].Piece = new Piece(PieceType.Pawn, Colour.Black, blackPawnSquare);
-                board[6, column].Piece = new Piece(PieceType.Pawn, Colour.White, whitePawnSquare);
+                board[1, column].Piece = new Pawn(Colour.Black, blackPawnSquare, false);
+                board[6, column].Piece = new Pawn(Colour.White, whitePawnSquare, false);
             }
 
             // Rooks
-            board[0, 0].Piece = new Piece(PieceType.Rook, Colour.Black, new int[] { 0, 0 });
-            board[0, 7].Piece = new Piece(PieceType.Rook, Colour.Black, new int[] { 0, 7 });
-            board[7, 0].Piece = new Piece(PieceType.Rook, Colour.White, new int[] { 7, 0 });
-            board[7, 7].Piece = new Piece(PieceType.Rook, Colour.White, new int[] { 7, 7 });
+            board[0, 0].Piece = new Rook(Colour.Black, new int[] { 0, 0 });
+            board[0, 7].Piece = new Rook(Colour.Black, new int[] { 0, 7 });
+            board[7, 0].Piece = new Rook(Colour.White, new int[] { 7, 0 });
+            board[7, 7].Piece = new Rook(Colour.White, new int[] { 7, 7 });
 
             // Knights
-            board[0, 1].Piece = new Piece(PieceType.Knight, Colour.Black, new int[] { 0, 1 });
-            board[0, 6].Piece = new Piece(PieceType.Knight, Colour.Black, new int[] { 0, 6 });
-            board[7, 1].Piece = new Piece(PieceType.Knight, Colour.White, new int[] { 7, 1 });
-            board[7, 6].Piece = new Piece(PieceType.Knight, Colour.White, new int[] { 7, 6 });
+            board[0, 1].Piece = new Knight(Colour.Black, new int[] { 0, 1 });
+            board[0, 6].Piece = new Knight(Colour.Black, new int[] { 0, 6 });
+            board[7, 1].Piece = new Knight(Colour.White, new int[] { 7, 1 });
+            board[7, 6].Piece = new Knight(Colour.White, new int[] { 7, 6 });
 
             // Bishops
-            board[0, 2].Piece = new Piece(PieceType.Bishop, Colour.Black, new int[] { 0, 2 });
-            board[0, 5].Piece = new Piece(PieceType.Bishop, Colour.Black, new int[] { 0, 5 });
-            board[7, 2].Piece = new Piece(PieceType.Bishop, Colour.White, new int[] { 7, 2 });
-            board[7, 5].Piece = new Piece(PieceType.Bishop, Colour.White, new int[] { 7, 5 });
+            board[0, 2].Piece = new Bishop(Colour.Black, new int[] { 0, 2 });
+            board[0, 5].Piece = new Bishop(Colour.Black, new int[] { 0, 5 });
+            board[7, 2].Piece = new Bishop(Colour.White, new int[] { 7, 2 });
+            board[7, 5].Piece = new Bishop(Colour.White, new int[] { 7, 5 });
 
             // Queen
-            board[0, 3].Piece = new Piece(PieceType.Queen, Colour.Black, new int[] { 0, 3 });
-            board[7, 3].Piece = new Piece(PieceType.Queen, Colour.White, new int[] { 7, 3 });
+            board[0, 3].Piece = new Queen(Colour.Black, new int[] { 0, 3 });
+            board[7, 3].Piece = new Queen(Colour.White, new int[] { 7, 3 });
 
             // King
-            board[0, 4].Piece = new Piece(PieceType.King, Colour.Black, new int[] { 0, 4 });
-            board[7, 4].Piece = new Piece(PieceType.King, Colour.White, new int[] { 7, 4 });
+            board[0, 4].Piece = new King(Colour.Black, new int[] { 0, 4 });
+            board[7, 4].Piece = new King(Colour.White, new int[] { 7, 4 });
         }
 
-        public void MovePiece(Piece piece, int[] newPosition)
+        public void MovePiece(IPiece piece, int[] newPosition)
         {
-            if (piece.CurrentPosition == null) return;
 
-            board[piece.CurrentPosition[0], piece.CurrentPosition[1]].Piece = null;
-            board[newPosition[0], newPosition[1]].Piece = piece;
-            piece.CurrentPosition = newPosition;
-
-            if (piece.PieceType.Equals(PieceType.Pawn) && !piece.HadFirstMove)
-            {
-                piece.HadFirstMove = true;
-            }
         }
 
-        public Piece? GetBoardSquarePiece(int row, int column)
+        public IPiece? GetBoardSquarePiece(int row, int column)
         {
             if (board[row, column] == null) 
             {
