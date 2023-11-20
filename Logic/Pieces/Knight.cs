@@ -34,12 +34,7 @@ namespace Logic.Pieces
                 { 
                     CurrentPosition[0] + potentialMove.Item1, CurrentPosition[1] + potentialMove.Item2 
                 };
-                if (
-                    potentialNewPosition[0] >= 0
-                    && potentialNewPosition[0] <= 7
-                    && potentialNewPosition[1] >= 0
-                    && potentialNewPosition[1] <= 7
-                )
+                if (IPiece.CheckPotentialPositionsAreInBounds(potentialNewPosition))
                 {
                     validMoves.Add(potentialMove);
                 }
