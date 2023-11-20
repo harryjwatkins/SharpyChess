@@ -26,6 +26,15 @@ namespace Logic.Pieces
             }
             else
             {
+                if
+                (
+                    CurrentPosition == null 
+                    || (PieceSet == Colour.Black && CurrentPosition[1] == 7)
+                    || (PieceSet == Colour.White && CurrentPosition[1] == 0)
+                )
+                {
+                    return null;
+                }
                 return PieceSet switch
                 {
                     Colour.Black => new List<(int, int)>() {(0, 1) },
