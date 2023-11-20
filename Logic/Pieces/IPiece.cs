@@ -25,6 +25,6 @@ namespace Logic.Pieces
                     && potentialNewPosition[1] >= 0
                     && potentialNewPosition[1] <= 7;
         }
-        
+
     }
 }

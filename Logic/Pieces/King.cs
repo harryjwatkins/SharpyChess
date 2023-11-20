@@ -4,8 +4,8 @@ namespace Logic.Pieces
 {
     public class King : IPiece
     {
-        public Colour PieceSet {  get; set; }
-        public int[]? CurrentPosition {  get; set; }
+        public Colour PieceSet { get; set; }
+        public int[]? CurrentPosition { get; set; }
         private List<(int, int)> _potentialMoves = new List<(int, int)>()
         {
             (0, 1), (0, -1),
@@ -13,7 +13,7 @@ namespace Logic.Pieces
             (-1, -1), (-1, 1),
             (1, 1), (1, -1),
         };
-        public King(Colour pieceSet, int[] currentPosition) 
+        public King(Colour pieceSet, int[] currentPosition)
         {
             PieceSet = pieceSet;
             CurrentPosition = currentPosition;

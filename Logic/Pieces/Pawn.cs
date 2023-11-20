@@ -4,10 +4,10 @@ namespace Logic.Pieces
 {
     public class Pawn : IPiece
     {
-        public Colour PieceSet {  get; set; }
-        public int[]? CurrentPosition {  get; set; }
-        public bool HadFirstMove {  get; set; }
-        public Pawn(Colour pieceSet, int[] currentPosition, bool hadFirstMove) 
+        public Colour PieceSet { get; set; }
+        public int[]? CurrentPosition { get; set; }
+        public bool HadFirstMove { get; set; }
+        public Pawn(Colour pieceSet, int[] currentPosition, bool hadFirstMove)
         {
             PieceSet = pieceSet;
             CurrentPosition = currentPosition;
@@ -28,7 +28,7 @@ namespace Logic.Pieces
             {
                 if
                 (
-                    CurrentPosition == null 
+                    CurrentPosition == null
                     || (PieceSet == Colour.Black && CurrentPosition[1] == 7)
                     || (PieceSet == Colour.White && CurrentPosition[1] == 0)
                 )
@@ -37,8 +37,8 @@ namespace Logic.Pieces
                 }
                 return PieceSet switch
                 {
-                    Colour.Black => new List<(int, int)>() {(0, 1) },
-                    _ => new List<(int, int)> {(0, -1) }
+                    Colour.Black => new List<(int, int)>() { (0, 1) },
+                    _ => new List<(int, int)> { (0, -1) }
                 };
             }
         }

@@ -10,10 +10,10 @@ namespace Logic
         public Colour Colour { get; set; }
         public IPiece? Piece { get; set; }
 
-        public BoardSquare(int row, int col, Colour colour) 
+        public BoardSquare(int row, int col, Colour colour)
         {
-            Row = row; 
-            Col = col; 
+            Row = row;
+            Col = col;
             Colour = colour;
         }
     }

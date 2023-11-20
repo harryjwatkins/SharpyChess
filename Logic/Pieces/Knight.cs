@@ -4,8 +4,8 @@ namespace Logic.Pieces
 {
     public class Knight : IPiece
     {
-        public Colour PieceSet {  get; set; }
-        public int[]? CurrentPosition {  get; set; }
+        public Colour PieceSet { get; set; }
+        public int[]? CurrentPosition { get; set; }
 
         private List<(int, int)> _potentialMoves = new List<(int, int)>()
         {
@@ -14,7 +14,7 @@ namespace Logic.Pieces
             (1,2), (1,-2),
             (-1,2), (-1,-2)
         };
-        public Knight(Colour pieceSet, int[] currentPosition) 
+        public Knight(Colour pieceSet, int[] currentPosition)
         {
             PieceSet = pieceSet;
             CurrentPosition = currentPosition;
@@ -22,7 +22,8 @@ namespace Logic.Pieces
 
         public List<(int, int)>? GetValidMoves()
         {
-            if (CurrentPosition == null) {
+            if (CurrentPosition == null)
+            {
                 return null;
             }
 
@@ -30,9 +31,9 @@ namespace Logic.Pieces
 
             foreach (var potentialMove in _potentialMoves)
             {
-                int[] potentialNewPosition = new int[2] 
-                { 
-                    CurrentPosition[0] + potentialMove.Item1, CurrentPosition[1] + potentialMove.Item2 
+                int[] potentialNewPosition = new int[2]
+                {
+                    CurrentPosition[0] + potentialMove.Item1, CurrentPosition[1] + potentialMove.Item2
                 };
                 if (IPiece.CheckPotentialPositionsAreInBounds(potentialNewPosition))
                 {

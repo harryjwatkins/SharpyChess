@@ -4,9 +4,9 @@ namespace Logic.Pieces
 {
     public class Rook : IPiece
     {
-        public Colour PieceSet {  get; set; }
-        public int[]? CurrentPosition {  get; set; }
-        public Rook(Colour pieceSet, int[] currentPosition) 
+        public Colour PieceSet { get; set; }
+        public int[]? CurrentPosition { get; set; }
+        public Rook(Colour pieceSet, int[] currentPosition)
         {
             PieceSet = pieceSet;
             CurrentPosition = currentPosition;

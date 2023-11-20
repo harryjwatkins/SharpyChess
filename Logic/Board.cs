@@ -14,7 +14,7 @@ namespace Logic
             {
                 for (int j = 0; j < 8; j++)
                 {
-                   if((i + j) % 2 == 0)
+                    if ((i + j) % 2 == 0)
                     {
                         board[i, j] = new BoardSquare(i, j, Colour.White);
                     }
@@ -71,7 +71,7 @@ namespace Logic
 
         public IPiece? GetBoardSquarePiece(int row, int column)
         {
-            if (board[row, column] == null) 
+            if (board[row, column] == null)
             {
                 return null;
             }
