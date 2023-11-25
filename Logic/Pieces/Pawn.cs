@@ -24,22 +24,22 @@ namespace Logic.Pieces
                     _ => new List<(int, int)> { (0, -2), (0, -1) }
                 };
             }
-            else
+
+            if
+            (
+                CurrentPosition == null
+                || (PieceSet == Colour.Black && CurrentPosition[1] == 7)
+                || (PieceSet == Colour.White && CurrentPosition[1] == 0)
+            )
             {
-                if
-                (
-                    CurrentPosition == null
-                    || (PieceSet == Colour.Black && CurrentPosition[1] == 7)
-                    || (PieceSet == Colour.White && CurrentPosition[1] == 0)
-                )
-                {
-                    return null;
-                }
-                return PieceSet switch
-                {
-                    Colour.Black => new List<(int, int)>() { (0, 1) },
-                    _ => new List<(int, int)> { (0, -1) }
-                };
+                return null;
+            }
+
+            return PieceSet switch
+            {
+                Colour.Black => new List<(int, int)>() { (0, 1) },
+                _ => new List<(int, int)> { (0, -1) }
+            };
             }
         }
     }
